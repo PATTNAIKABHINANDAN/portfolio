@@ -15,15 +15,15 @@ const Project = () => {
         <div className='grid grid-cols-3 gap-20 pt-8'>
             <ProjectCard
             title='Mineral Potensial Mapping'
-            desc='loremkjas aljdnkb aksjbj askjdbas kjhschs kuhdbas kiuhdbsd'
+            desc='Developed an ML model to efficiently map highly potential location for minerals using heat maps.'
             src={projectOne}/>
             <ProjectCard
-            title='Mineral Potensial Mapping'
-            desc='loremkjas aljdnkb aksjbj askjdbas kjhschs kuhdbas kiuhdbsd' src={projectTwo}/>
+            title='Healtho'
+            desc='Worked on a Blockchain model to efficiently track health products.' src={projectTwo}/>
              <ProjectCard
-            title='Mineral Potensial Mapping'
-            desc='loremkjas aljdnkb aksjbj askjdbas kjhschs kuhdbas kiuhdbsd' src={projectThree}/>
-            <ProjectCard
+            title='WSN SECURE AND EFFICIENT TRANSMISSION'
+            desc='Worked on a ML model to efficently transfer data with more energy efficiency and imporoved quality of service.' src={projectThree}/>
+            {/* <ProjectCard
             title='Mineral Potensial Mapping'
             desc='loremkjas aljdnkb aksjbj askjdbas kjhschs kuhdbas kiuhdbsd' src={projectThree}/>
             <ProjectCard
@@ -31,7 +31,7 @@ const Project = () => {
             desc='loremkjas aljdnkb aksjbj askjdbas kjhschs kuhdbas kiuhdbsd' src={projectTwo}/>
             <ProjectCard
             title='Mineral Potensial Mapping'
-            desc='loremkjas aljdnkb aksjbj askjdbas kjhschs kuhdbas kiuhdbsd' src={projectOne}/>
+            desc='loremkjas aljdnkb aksjbj askjdbas kjhschs kuhdbas kiuhdbsd' src={projectOne}/> */}
         </div>
         {/* <p>Heelloo!!!!!!!</p> */}
     </section>
