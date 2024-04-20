@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom'; // Import ReactDOM
 import { Link } from 'react-scroll';
 import Swal from 'sweetalert2';
 import Contact from '../contact/Contact'; // Import the Contact component
 import { logo } from "../../assets/index"; // Import logo
 import { navLinksdata } from "../../constants"; // Import navLinksdata
 import './swal.css';
+import { createRoot } from 'react-dom/client';
 
 const Navbar = () => {
 
@@ -21,7 +21,11 @@ const Navbar = () => {
       },
       didOpen: () => {
         // Render the Contact component inside the SweetAlert modal
-        ReactDOM.render(<Contact />, document.getElementById('contact-modal'));
+        createRoot(document.getElementById('contact-modal')).render(
+            <React.StrictMode>
+              <Contact />
+            </React.StrictMode>
+        );
       }
     });
   };
