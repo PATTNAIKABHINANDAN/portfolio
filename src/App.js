@@ -17,9 +17,8 @@ function App() {
           <Features/>
           <Project/>
           <Resume/>
-          <Contact/>
-          <Footer/>
         </div>
+        <Footer/>
     </div>
   );
 }

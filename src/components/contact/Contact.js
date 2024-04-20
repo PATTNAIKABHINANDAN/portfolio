@@ -8,13 +8,13 @@ const Contact = () => {
   return (
     <section
       id="contacts"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-      <Title title='Contact' desc='Connect to me' className="justify-center"/>
+      <Title title='Connect to me' desc='' className="justify-center"/>
       </div>
       <div className='flex pt-5'>
-        <div className='w-1/2'>
+        <div className='h-[10%] w-1/2'>
           <ContactLeft />
         </div>
         <div className='w-1/2'>

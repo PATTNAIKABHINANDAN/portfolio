@@ -21,7 +21,7 @@ const Project = () => {
             title='Healtho'
             desc='Worked on a Blockchain model to efficiently track health products.' src={projectTwo}/>
              <ProjectCard
-            title='WSN SECURE AND EFFICIENT TRANSMISSION'
+            title='WSN secure and efficient transmision'
             desc='Worked on a ML model to efficently transfer data with more energy efficiency and imporoved quality of service.' src={projectThree}/>
             {/* <ProjectCard
             title='Mineral Potensial Mapping'

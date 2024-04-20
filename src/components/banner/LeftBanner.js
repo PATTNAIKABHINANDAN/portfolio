@@ -1,6 +1,6 @@
 import React from 'react'
 import {useTypewriter,Cursor} from "react-simple-typewriter";
-import {FaFacebookF,FaTwitter,FaLinkedinIn,FaReact, FaGit, FaGitAlt, FaKaggle, FaFile} from "react-icons/fa"
+import {FaFacebookF,FaTwitter,FaLinkedinIn,FaReact, FaGit, FaGitAlt, FaKaggle, FaFile, FaWhatsapp} from "react-icons/fa"
 // import {SiTailwindcss,SiFigma,SiNextdotjs} from "react-icons/si"
 
 
@@ -55,6 +55,13 @@ const LeftBanner = () => {
               <a href="https://www.linkedin.com/in/abhinandan-pattnaik-/" target="_blank" rel="noopener noreferrer" className='contact'>
                 <div className='position'>
                   <FaLinkedinIn />
+                </div>
+              </a>
+            </span>
+            <span className="bannerIcon">
+              <a href="https://wa.me/917846808322" target="_blank" rel="noopener noreferrer" className='contact'>
+                <div className='position'>
+                  <FaWhatsapp />
                 </div>
               </a>
             </span>
